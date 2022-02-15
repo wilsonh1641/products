@@ -53,7 +53,6 @@ for p in products:
 # 加入程式碼寫欄位
 # 解決亂碼問題(編碼encoding)
 
-
 # 寫入檔案
 with open('products.csv', 'w', encoding = 'utf-8') as f:
 	f.write('商品,價格\n')
